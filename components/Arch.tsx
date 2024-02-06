@@ -19,7 +19,7 @@ const Arch = () => {
           style={{
             transform: `rotate(${progress}deg)`,
           }}
-          className={`absolute left-0 top-0 w-48 h-48 rotate-45  rounded-[50%] border-box  border-[6px] border-white/5  border-b-white/80 border-r-white/80`}
+          className={`absolute left-0 top-0 w-48 h-48 rotate-45 duration-300  rounded-[50%] border-box  border-[6px] border-white/5  border-b-white/80 border-r-white/80`}
         ></div>
         <div className="absolute left-1/2 top-12 -translate-x-1/2 text-white/80 text-xl font-semibold ">
           {temperature} °C
