@@ -10,7 +10,7 @@ const Arch = () => {
       return 45 + progress * (180 / 50);
     }
     setProgress(calculateRotation(temperature));
-  }, []);
+  }, [temperature]);
 
   return (
     <div className=" w-48 h-24 overflow-hidden  ">
